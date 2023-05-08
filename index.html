@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Главная</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta content="telephone=no" name="format-detection">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <link href="assets/css/main.css" rel="stylesheet" type="text/css">
+    </head>
+   
+    <div class="page">
+        <div class="page__container container">
+            <div class="page__row">
+                <h6 class="page__title">Завдання 1: Напишіть клас User, який має властивості name, email та password. Додайте метод, який валідує дані користувача та повертає true, якщо дані валідні, та false, якщо ні.</h6>
+                <button class="test-btn page__test-btn" data-name="name" data-email="test@test.com" data-pass="11111">True</button>
+                <button class="test-btn page__test-btn" data-name="name2" data-email="test@test.com" data-pass="">False</button>
+            </div>
+
+            <div class="page__row">
+                <h6 class="page__title">Завдання 2: Напишіть функцію, яка проводить валідацію HTML-форми та запобігає її відправці, якщо дані не валідні. Форма має поля для введення імені, email та пароля. Ви можете використовувати будь-яку функцію валідації за своєю вибором.</h6>
+                
+                <form action="#" class="form page__form">
+                    <div class="form__field">
+                        <input type="text" name="Name" class="form__input" placeholder="Name">
+                    </div>
+                    <div class="form__field">
+                        <input type="email" name="Email" class="form__input" placeholder="Email">
+                    </div>
+                    <div class="form__field">
+                        <input type="password" name="Password" class="form__input" placeholder="Password">
+                    </div>
+
+                    <button class="form__submit" type="submit">Submit form</button>
+                </form>
+            </div>
+
+            <div class="page__row">
+                <h6 class="page__title">Завдання 3: Дано форму з полем введення URL та кнопкою для відправки запиту. Напишіть функцію, яка використовує fetch API для виконання GET запиту та отримання відповіді від сервера. Функція має відправляти запит при натисканні на кнопку та відображати результат запиту на сторінці.</h6>
+                
+                <form action="#" class="form page__form">
+                    <div class="form__field">
+                        <input type="text" class="form__input js-fetch-url">
+                    </div>
+                    <button class="form__submit js-fetch-submit">FETCH THIS!</button>
+                    <div class="form__result js-fetch-result"></div>
+                </form>
+            </div>
+
+
+            <div class="page__row">
+                <h6 class="page__title">Завдання 4: Є функція, яка приймає на вхід масив чисел та повертає суму всіх парних чисел в масиві. Якщо масив не містить жодного парного числа, функція повертає 0. Знайдіть помилку в даному прикладі.</h6>
+                
+                В данному випадку формула працює корректно. Помилки немає.
+                <div class="page__test-sum"></div>
+            </div>
+
+
+            <div class="page__row">
+                <h6 class="page__title">Завдання 5: Дано масив об'єктів, що представляє список користувачів:
+
+                    const users = [
+                      {id: 1, name: "John Doe", age: 25},
+                      {id: 2, name: "Jane Smith", age: 30},
+                      {id: 3, name: "Bob Johnson", age: 35},
+                      {id: 4, name: "Alice Brown", age: 20}
+                    ];
+                    </h6>
+                
+                <div>
+                    5.1 <span class="res1"></span>
+                </div>
+                <div>
+                    5.2 <span class="res2"></span>
+                </div>
+                <div>
+                    5.3 <span class="res3"></span>
+                </div>
+            </div>
+
+
+
+            
+        </div>
+    </div>
+    <script src="assets/js/main.min.js"></script>
+
+</html>
